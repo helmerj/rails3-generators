@@ -7,7 +7,7 @@ begin
   Jeweler::Tasks.new do |gem|
     version = File.exist?('VERSION') ? File.read('VERSION') : ""
       
-    gem.name = "rails3-generators"
+    gem.name = "rails3-generators-jh"
     gem.summary = %Q{Rails 3 compatible generators}
     gem.description = %Q{Rails 3 compatible generators for DataMapper, Haml, Factory-girl, Authlogic, Mongomapper, Shoulda, Formtastic and SimpleForm}
     gem.email = "andre@arko.net"
