@@ -10,7 +10,8 @@
   .clear
   .field
     = f.label :<%= attribute.name %>
-    = f.<%= attribute.field_type %> :<%= attribute.name %>
+		= f.<%= attribute.field_type %> :<%= attribute.name %>
 <% end -%>
+    .clear
   .actions
     = f.submit nil, :class => 'submit_button', :disable_with => t('please_wait')
