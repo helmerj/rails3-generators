@@ -6,7 +6,7 @@
 
 %dl
 <% for attribute in attributes -%>
-  %dt= t('<%= attribute.name %>')
+  %dt= t('.<%= attribute.name %>')
   %dd= @<%= singular_name %>.<%= attribute.name %>
 <% end -%>
 

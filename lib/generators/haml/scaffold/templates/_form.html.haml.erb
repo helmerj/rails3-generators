@@ -9,7 +9,7 @@
 <% for attribute in attributes -%>
   .clear
   .field
-    = f.label :<%= attribute.name %>, t('<%= attribute.name %>')
+    = f.label :<%= attribute.name %>, t('.<%= attribute.name %>')
     = f.<%= attribute.field_type %> :<%= attribute.name %>
 <% end -%>
     .clear
